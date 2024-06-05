@@ -1,0 +1,5 @@
+print('Este programa calcula o valor devido sobre o aluguel de um automóvel.\nSendo que tal custa R$60/dia e R$0,15 por KM rodado.')
+dias = int(input('Por quantos dias o carro foi alugado?'))
+km = float(input('Quantos kilômetros o veículo percorreu?'))
+valor = (dias*60) + (km*0.15)
+print('O valor do aluguel é R${:.2f}'.format(valor))

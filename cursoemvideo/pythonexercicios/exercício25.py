@@ -1,0 +1,5 @@
+print('Este programa verifica se o nome de uma pessoa contém "SILVA".')
+nome = str(input('Digite um nome: ')).strip()
+nome.lower()
+silvasn = ('silva' in nome)
+print(silvasn)

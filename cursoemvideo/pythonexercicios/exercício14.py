@@ -1,0 +1,5 @@
+print('Este programa transforma temperaturas de Celcius para Fahrenheit.')
+tcel = float(input('Digite a temperatura em °C: '))
+tfar = float((tcel*1.8)+32)
+tkel = float(tcel+273.15)
+print('{:.2f}°C equivalem a {:.2f}°F e {:.2f}K'.format(tcel, tfar, tkel))

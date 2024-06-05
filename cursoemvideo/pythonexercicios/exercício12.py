@@ -1,0 +1,6 @@
+print('Este programa calcula descontos de produtos.')
+preco = float(input('Digite o preço do produto: '))
+desc = float(input('Digite o desconto a ser aplicado (Em porcentagens de 0 a 100): '))
+desconto = (preco*(desc/100))
+resultado = (preco-desconto)
+print('O preço com desconto é: {:.2f}'.format(resultado))

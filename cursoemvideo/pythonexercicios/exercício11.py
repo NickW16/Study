@@ -1,0 +1,6 @@
+print('Este programa calcula a tinta necessária para pintar uma área, sabendo que 1L de tinta pinta 2 metros quadrados.')
+alt = float(input('Digite a altura: '))
+larg = float(input('Digite a largura: '))
+area = (alt*larg)
+tinta = ((alt*larg)/2)
+print('A sua parede tem {:.3f} metros quadrados e serão necessários {:.3f} Litros de tinta para pintá-la.'.format(area, tinta))

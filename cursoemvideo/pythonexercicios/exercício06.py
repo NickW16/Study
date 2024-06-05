@@ -1,0 +1,5 @@
+n1 = int(input('Digite um valor:'))
+dob = (n1*2)
+tri = (n1*3)
+rai = (n1**(1/2))
+print('O dobro de {} é {}.\nO triplo de {} é {}.\nA raíz quadrada de {} é {:.2f}.'.format(n1, dob, n1, tri, n1, rai))

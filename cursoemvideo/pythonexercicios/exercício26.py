@@ -1,0 +1,8 @@
+print('Este programa diz quantas vezes a letra "A" aparece.')
+nome = (str(input('Digite um nome: '))
+.lower()
+.strip())
+a1 = nome.count('a')
+print('Sua frase tem {} letras "A".'.format(a1))
+print('A primeira letra "A" apareceu na posição {}.'.format(nome.find('a')+1))
+print('A última letra "A" apareceu na posição {}.'.format(nome.rfind('a')+1))

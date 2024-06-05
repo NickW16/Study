@@ -1,0 +1,7 @@
+print('Este programa calcula aumentos em salários de funcionários.')
+nome = str(input('Digite o nome do funcionário: '))
+sal1 = float(input('Digite o salário de {}: '.format(nome)))
+aum1 = float(input('Digite o quanto deseja aumentar (em porcentagem): '))
+aumento = (1+(aum1*(1/100)))
+resultado = (sal1*aumento)
+print('O aumento de {}% no salário de {} resultará em R${}.'.format(aum1, nome, resultado))

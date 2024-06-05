@@ -1,0 +1,5 @@
+print('Este programa converte metros em centímetros e milímetros.')
+metro = float(input('Metro: '))
+cent = int(metro*100)
+mili = int(metro*1000)
+print('{} metro(s) equivalem a {:.0f} centímetro(s) ou {:.0f} milímetro(s).'.format(metro, cent, mili))
